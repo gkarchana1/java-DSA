@@ -12,14 +12,6 @@ public class SinglyLinkedList{
 		}
 	}
 
-	public void insertLast( int data ){
-
-		ListNode newNode = new ListNode( data );
-
-		newNode.next = head;
-		head = newNode;
-	}
-
 	public void display( ListNode head ){
 		
 		ListNode temp = head;
