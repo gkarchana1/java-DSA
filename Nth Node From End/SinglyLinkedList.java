@@ -12,7 +12,7 @@ public class SinglyLinkedList{
 		}
 	}
 
-	public void insertLast( int data ){
+	public void insertFirst( int data ){
 
 		ListNode newNode = new ListNode( data );
 
@@ -72,10 +72,10 @@ public class SinglyLinkedList{
 
 		s.head = new ListNode(1);
 		
-		s.insertLast(2);
-		s.insertLast(3);
-		s.insertLast(4);
-		s.insertLast(5);
+		s.insertFirst(2);
+		s.insertFirst(3);
+		s.insertFirst(4);
+		s.insertFirst(5);
 
 		s.display( s.head );
 
